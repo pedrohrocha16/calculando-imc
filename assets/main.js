@@ -17,8 +17,8 @@ function calcular(){
     } else if (res1 <= 0 || res2 < 50){
         alert('Valores Inválidos.<br>Tente novamente!')
     }else {
-        resultado.innerHTML = `Seu IMC é: ${imcFinal}<br>
-        Confira na tabela abaixo a sua classificação.`
+        resultado.innerHTML = `&#9989; Seu IMC é: ${imcFinal}<br>
+        Confira na tabela abaixo a sua classificação. &#11015;`
         itemRes.style.background ="rgb(9 2 110)"
     }   
 } 
