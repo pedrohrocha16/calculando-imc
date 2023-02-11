@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <title>Calculando IMC</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="assets\style.css">
+    </head>
+    <body>
+      <header>
+        <h1>Calculo IMC</h1>
+      </header> 
+      <div class="dados">
+        <label class="botoes__label" for="kg">Digite seu peso:</label>
+        <input class="botoes__inpt" type="number" name="kg" id="kg" placeholder="Formato: 80">
+        <label class="botoes__label" for="altura">Digite sua altura:</label>
+        <input class="botoes__inpt" type="number" name="altura" id="altura" placeholder="Formato: 151">
+        <input type="submit" id="btn-enviar">
+      </div>
+      <div class="resultado">
+        <p id="msg-res">Digite as informações acima e veja o resultado.</p>
+      </div>
+      <div id="tab">
+        <h2 class="titulo_tab">Tabela de referência:</h2>
+        <img class="img_tab" src="assets\img\tabela-imc.png" alt="Tabela de valores IMC">
+      </div>    
+          <footer>
+                <p>&copy;Pedro H. Rocha 2023</p>
+            <div id ="redes-sociais">   
+                <a href=https://www.instagram.com/pedrorochaducks target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/pedrohrocha16" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+            </div>
+        </footer>
+      <script src="assets/main.js"></script>
+    </body>
+</html>
