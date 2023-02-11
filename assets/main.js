@@ -13,16 +13,10 @@ function calcular(){
     var imcFinal = `${imc.toFixed(6)}` * 10000
 
     if (res1 >= 300 || res2 >= 230){
-        itemRes.innerHTML = 'Valores Inválidos.<br>Tente novamente!'
-        itemRes.style.color = 'white'
-        itemRes.style.background = 'red'
+      alert('Valores Inválidos. Tente novamente!')
     } else if (res1 <= 0 || res2 < 50){
-        itemRes.innerHTML = 'Valores Inválidos.<br>Tente novamente!'
-        itemRes.style.color = 'white'
-        itemRes.style.background = 'red'
-    }
-    
-    else {
+        alert('Valores Inválidos.<br>Tente novamente!')
+    }else {
         resultado.innerHTML = `Seu IMC é: ${imcFinal}<br>
         Confira na tabela abaixo a sua classificação.`
         itemRes.style.background ="rgb(9 2 110)"
