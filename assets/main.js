@@ -8,7 +8,7 @@ function calcular(){
     var btnAlt = document.getElementById ('altura')
     var itemRes = document.getElementsByClassName('resultado')[0]
     var resultado = document.getElementById('msg-res')
-    var res0 = (btnNome.value)
+    var res0 = String(btnNome.value)
     var res1 = Number(btnkg.value)
     var res2 = Number(btnAlt.value)
     var imc = res1 / (res2 * res2)
