@@ -1,5 +1,4 @@
 var sendDados = document.getElementById('btn-enviar')
-
 sendDados.addEventListener('click', calcular)
 
 function calcular(){
@@ -21,4 +20,4 @@ function calcular(){
         Confira na tabela abaixo a sua classificação. &#11015;`
         itemRes.style.background ="rgb(9 2 110)"
     }   
-} 
+}
